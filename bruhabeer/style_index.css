@@ -1,6 +1,7 @@
-.wide_1080 {
+.wide_wide {
     max-width: 1280px;
     margin: 0 auto;
+    padding: 30px;
 }
 html{
     font-size: 100%;
@@ -169,7 +170,7 @@ h1{
     color: #000;
     text-align: justify;
     font-family: Noto Sans;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px; /* 166.667% */
@@ -364,20 +365,29 @@ h1{
 .section_about .about_wrap{
     /* width: 75%; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 8px 0 5px;
     margin: auto;
     /* align-items: flex-start; */
 }
 .section_about .about_wrap .about_contect_sp .about_slogn_hops{
     color: #663200;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;
     letter-spacing: 5px;
+    width: 100%;
+}
+.section_about .about_wrap .about_contect_sp {
+    width: 58.3333%;
+}
+
+.section_about .about_wrap .about_contect_sp .about_pic {
+    width: 100%;
 }
 .section_about .about_wrap .about_contect_sp .about_pic img{
-    width: 800px;
     margin: 10px 0px 80px;
+    width: 100%;
+    object-fit: cover;
 }
 .section_about .about_wrap .about_contect_text {
     /* margin-top: 5%; */
@@ -394,6 +404,7 @@ h1{
 }
 .section_about .about_wrap .about_contect_text {
     margin-top: 5%;
+    width: 41.6666%;
 }
 .section_about .about_wrap .about_contect_text .viewmore{
     margin-left: 55%;
