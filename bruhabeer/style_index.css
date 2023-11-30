@@ -1,7 +1,5 @@
 .wide_1080 {
     max-width: 1280px;
-    width: 100%;
-    padding: 0 6%;
     margin: 0 auto;
 }
 html{
@@ -354,7 +352,7 @@ h1{
     padding: 30px;
 }
 .section_about .about_wrap{
-    width: 75%;
+    /* width: 75%; */
     display: flex;
     justify-content: space-between;
     padding: 8px 0 5px;
