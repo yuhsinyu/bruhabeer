@@ -210,7 +210,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 45px; /* 225% */
+    line-height: 30px; /* 225% */
     letter-spacing: 2px;
 }
 .about_feature .content .img {
@@ -221,7 +221,7 @@ p {
     right: 0;
 }
 img {
-    width: 100%;
+    width: 85%;
     height: auto;
 }
 .about_feature .content .img {
@@ -235,7 +235,7 @@ img {
     justify-content: flex-end;
 }
 .about_feature .content:nth-child(2) .img {
-    left: 0;
+    left: 8%;
 }
 .about_feature .content .text {
     width: 40%;

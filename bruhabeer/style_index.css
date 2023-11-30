@@ -378,6 +378,7 @@ h1{
     font-weight: 900;
     letter-spacing: 5px;
     width: 100%;
+    padding: 10px;
 }
 .section_about .about_wrap .about_contect_sp {
     width: 58.3333%;
