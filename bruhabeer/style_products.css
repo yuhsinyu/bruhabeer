@@ -81,7 +81,7 @@ a img {
 .beer_craft .beer_products_title{
     color: #000;
     font-family: Noto Sans;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 600;
     letter-spacing: 6px;
     margin: 100px 0 30px;
@@ -148,7 +148,7 @@ a img {
 .beer_craft a{
     color: #353535;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 5px;
     border: #000 solid 1px;

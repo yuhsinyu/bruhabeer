@@ -72,7 +72,7 @@ a img {
 }
 
 .banner_container .banner_text h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     color: white;
     letter-spacing: 4px;
@@ -90,13 +90,24 @@ a img {
     align-items: center;
     margin: 30px auto 50px;
 }
+.about_top_contect p span{
+    color: #000;
+    text-align: justify;
+    font-family: Kosugi Maru;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+    line-height: 2em;
+    letter-spacing: 2px;
+    width: 70%;
+}
 .about_top_contect p{
     color: #000;
     text-align: justify;
     font-family: Kosugi Maru;
     font-weight: 400;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 2em;
     letter-spacing: 2px;
     width: 70%;
@@ -163,7 +174,7 @@ img {
     vertical-align: top;
 }
 .about_title h2 {
-    font-size: 3.2rem;
+    font-size: 40px;
 }
 .about_feature {
     width: 100%;
@@ -238,7 +249,9 @@ img {
 
 
 /* flow */
-
+.flow_bg{
+    background-image: url(about_flow_bg.png);
+}
 .about_flow {
     width: 100%;
     padding: 45px 0 0;
@@ -248,11 +261,15 @@ img {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    
-
 }
+.about_flow .flow_text{
+    font-size: 20px;
+    padding: 30px;
+}
+
 .about_flow h2 {
-    font-size: 3.2rem;
+    font-size: 40px;
+    padding: 35px;
 }
 .about_flow .wide_795 {
     color: #000;
@@ -289,10 +306,10 @@ img {
     width: 50%;
 }
 .flow_raw .flow_raw_1 h3{
-    font-size: 24px;
+    font-size: 22px;
 }
 .flow_raw .flow_raw_1 p{
-    font-size: 24px;
+    font-size: px;
     color: #000;
     text-align: justify;
     font-family: Noto Sans;
@@ -305,7 +322,7 @@ img {
 
 
 .about_flow .chart_area .chart_area_type1 h3{
-    font-size: 30px;
+    font-size: 26px;
     background-color: antiquewhite;
     margin: 30px 80px 30px 0px;
     padding: 10px;
@@ -338,7 +355,7 @@ img {
     font-weight: 500;
     line-height: 30px; /* 166.667% */
     letter-spacing: 2px;
-    padding: 15px;
+    padding: 30px;
 }
 
 
@@ -348,7 +365,7 @@ img {
     margin: 50px;
 }
 .about_flow .chart_area .chart_area_type2 h3{
-    font-size: 30px;
+    font-size: 26px;
     background-color: antiquewhite;
     margin: 30px 0px 30px 80px;
     padding: 10px;
@@ -382,14 +399,16 @@ img {
     font-weight: 500;
     line-height: 30px; /* 166.667% */
     letter-spacing: 2px;
-    padding: 15px;
+    padding: 30px;
 }
 .about_flow .chart_area img{
     width: 50%;
 }
 
 /* team */
-
+.about_team{
+    padding-top: 100px;
+}
 .about_team .wide_795{
     color: #000;
     font-family: Noto Sans;

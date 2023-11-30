@@ -63,7 +63,7 @@ a img {
 }
 
 .banner_container .banner_text h2 {
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 600;
     color: white;
     letter-spacing: 4px;
@@ -79,12 +79,12 @@ a img {
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 20px;
+    padding: 30px 20px 0px;
 
 }
 .menu_listall .list_all{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     max-width: 100%;
     background-color: #ffffff;
     border-radius: 50%;
@@ -95,11 +95,11 @@ a img {
     color: #AF4F41;
     font-weight: bold;
     font-size: 25px;
-    margin: 30px;
+    margin: 15px;
 }
 .menu_listall .list_craft ,.list_season, .list_area, .list_mystery, .list_others{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     max-width: 100%;
     background-color: #ffffff;
     border-radius: 50%;
@@ -129,7 +129,6 @@ a img {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 30px; 
 }
 .beer_craft .beer_products_title{
     color: #000;
@@ -164,7 +163,7 @@ a img {
     text-align: start;
     color: #000;
     font-family: Noto Sans;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
     letter-spacing: 5px;
     padding: 15px 3px 5px;
@@ -182,7 +181,7 @@ a img {
     text-align: start;
     color: #000;
     font-family: Noto Sans;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px; /* 150% */
     letter-spacing: 0.25em;
@@ -191,7 +190,7 @@ a img {
 .card .card_contect .price{
     text-align: end;
     color: #000;
-    font-family: Inter;
+    font-family: Nunito;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px; /* 150% */
