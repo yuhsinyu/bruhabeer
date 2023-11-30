@@ -9,6 +9,7 @@ html{
 }
 body {
     font-family: 'Kanit', sans-serif;
+    height: 100vh;
 }
 * {
     margin: 0;
@@ -192,10 +193,7 @@ input, textarea, select {
 button:hover {
     background-color: #b04522;
 } */
-body{
-    background: #f4f4f4;
-    height: 100vh;
-}
+
 
 .wrapper{
     position: relative;
