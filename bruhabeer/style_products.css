@@ -111,7 +111,7 @@ a img {
     text-align: start;
     color: #000;
     font-family: Noto Sans;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
     letter-spacing: 5px;
     padding: 15px 3px 5px;
@@ -129,7 +129,7 @@ a img {
     text-align: start;
     color: #000;
     font-family: Noto Sans;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px; /* 150% */
     letter-spacing: 0.25em;
@@ -138,7 +138,7 @@ a img {
 .card .card_contect .price{
     text-align: end;
     color: #000;
-    font-family: Inter;
+    font-family: Nunito;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px; /* 150% */
