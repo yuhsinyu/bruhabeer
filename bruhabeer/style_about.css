@@ -72,7 +72,7 @@ a img {
 }
 
 .banner_container .banner_text h2 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
     color: white;
     letter-spacing: 4px;
@@ -107,7 +107,7 @@ a img {
     font-family: Kosugi Maru;
     font-weight: 400;
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 2em;
     letter-spacing: 2px;
     width: 70%;
@@ -196,7 +196,7 @@ img {
     z-index: 10;
 }
 .about_feature .content .text .text_title {
-    font-size: 2.4rem;
+    font-size: 30px;
     line-height: 1.5;
     margin: 0 0 30px;
 }
@@ -207,7 +207,7 @@ p {
     text-align: justify;
     color: #000;
     font-family: Kosugi Maru;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 45px; /* 225% */
@@ -249,21 +249,22 @@ img {
 
 
 /* flow */
-.flow_bg{
+.about_flow_bg{
     background-image: url(about_flow_bg.png);
+    
 }
 .about_flow {
     width: 100%;
     padding: 45px 0 0;
     margin: 0 0 50px;
     text-align: center;
-    background-image: url(about_flow_bg.png);
+    /* background-image: url(about_flow_bg.png); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
 .about_flow .flow_text{
-    font-size: 20px;
+    font-size: 16px;
     padding: 30px;
 }
 
@@ -294,7 +295,7 @@ img {
 .flow_raw {
     display: flex;
     border-radius: 10px;
-    background: rgba(255, 163, 128, 0.26);
+    background: rgba(226, 193, 180, 0.26);
 }
 .flow_raw .flow_raw_1{
     width: 80%;
@@ -309,11 +310,10 @@ img {
     font-size: 22px;
 }
 .flow_raw .flow_raw_1 p{
-    font-size: px;
     color: #000;
     text-align: justify;
     font-family: Noto Sans;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 30px; /* 166.667% */
     letter-spacing: 2px;    
@@ -322,7 +322,7 @@ img {
 
 
 .about_flow .chart_area .chart_area_type1 h3{
-    font-size: 26px;
+    font-size: 22px;
     background-color: antiquewhite;
     margin: 30px 80px 30px 0px;
     padding: 10px;
@@ -340,7 +340,7 @@ img {
     width: 80%;
     color: #000;
     font-family: Noto Sans;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px; /* 166.667% */
@@ -351,7 +351,7 @@ img {
 .about_flow .chart_area .chart_area_type1 .content p{
     color: #000;
     font-family: Noto Sans;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 30px; /* 166.667% */
     letter-spacing: 2px;
@@ -365,7 +365,7 @@ img {
     margin: 50px;
 }
 .about_flow .chart_area .chart_area_type2 h3{
-    font-size: 26px;
+    font-size: 22px;
     background-color: antiquewhite;
     margin: 30px 0px 30px 80px;
     padding: 10px;
@@ -383,7 +383,7 @@ img {
     width: 80%;
     color: #000;
     font-family: Noto Sans;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px; /* 166.667% */
@@ -395,7 +395,7 @@ img {
 .about_flow .chart_area .chart_area_type2 .content p{
     color: #000;
     font-family: Noto Sans;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 30px; /* 166.667% */
     letter-spacing: 2px;
@@ -406,13 +406,13 @@ img {
 }
 
 /* team */
-.about_team{
+.about_title{
     padding-top: 100px;
 }
-.about_team .wide_795{
+.about_title .wide_795{
     color: #000;
     font-family: Noto Sans;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 2em;
     letter-spacing: 2px;
     width: 80%;
@@ -421,12 +421,12 @@ img {
     align-items: center;
     margin: auto;
 }
-.about_team .img_fac img{
+.about_title .img_fac img{
     width: 80%;
     margin: 50px;
 }
 
-.about_team .team_person1, .team_person2{
+.about_title .team_person1, .team_person2{
     background-color: #ffffff;
     border: #f4f4f4 solid;
     width: 80%;
@@ -436,36 +436,36 @@ img {
     align-items: center;
     margin: auto;    
 }
-.about_team .team_person1 .team_person1_title {
+.about_title .team_person1 .team_person1_title {
     font-size: 30px;
     text-align: left;
     margin: 30px;
     }
-.about_team .team_person2 .team_person2_title {
+.about_title .team_person2 .team_person2_title {
     font-size: 30px;
     text-align: right;
     margin: 30px;
 }    
-.about_team .team_person1 .team_person1_pic {
+.about_title .team_person1 .team_person1_pic {
     margin: 40px;
 }
-.about_team .team_person2 .team_person2_pic {
+.about_title .team_person2 .team_person2_pic {
     margin: 40px;
 }
 
-.about_team .team_person1 .team_person1_text {
+.about_title .team_person1 .team_person1_text {
     color: #000;
     font-family: Noto Sans;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 30px; /* 166.667% */
     letter-spacing: 2px;
     margin: 20px 40px 20px 20px;
 }
-.about_team .team_person2 .team_person2_text {
+.about_title .team_person2 .team_person2_text {
     color: #000;
     font-family: Noto Sans;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 30px; /* 166.667% */
     letter-spacing: 2px;

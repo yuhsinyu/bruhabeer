@@ -326,7 +326,7 @@ h1{
     line-height: 1.5;
     padding: 10px;
 }
-.viewmore button {
+.viewmore a {
     background-color: #ffffff;
     color: #BC9A16;
     padding: 15px 65px;
@@ -339,8 +339,10 @@ h1{
     font-family: Nunito;
     font-size: 16px;
     font-weight: 700;
+    display: block;
+    text-align: center;
 }
-.viewmore button:hover {
+.viewmore a:hover {
     background-color:#8f8d4f;
     color: #FFF;
 }
