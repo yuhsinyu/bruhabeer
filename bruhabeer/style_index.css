@@ -214,10 +214,10 @@ h1{
     flex-shrink: 0;
 }
 
-
+/* 
 .section_contact {
     width: 100%;
-}
+} */
 
 .contact_container {
     position: relative;
@@ -230,6 +230,9 @@ h1{
 }
 
 /* slogan */
+.slogan_slogan{
+    width: 1200px;
+}
 .section_slogan{
     background-size: cover;
     background: rgba(255, 235, 210, 0.30);
@@ -250,6 +253,7 @@ h1{
 .section_slogan .slogan_pic {
     display: flex;
     justify-content: center;
+   
 }
 
 
@@ -366,21 +370,21 @@ h1{
     letter-spacing: 5px;
 }
 .section_about .about_wrap .about_contect_sp .about_pic img{
-    width: 850px;
+    width: 800px;
     margin: 10px 0px 80px;
 }
 .section_about .about_wrap .about_contect_text {
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 .section_about .about_wrap .about_contect_text .about_article{
     color: #000;
     text-align: justify;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 50px; /* 227.273% */
     letter-spacing: 1px;
-    margin: 10%;
+    margin: 15px;
 }
 .section_about .about_wrap .about_contect_text {
     margin-top: 5%;
@@ -389,7 +393,7 @@ h1{
     margin-left: 55%;
 }
 .beer_pic{
-    width: ;80%
+    /* width: 80%; */
     padding: 0px 10px 0px 30px;
 }
 
