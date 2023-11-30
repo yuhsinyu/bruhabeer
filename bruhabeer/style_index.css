@@ -231,7 +231,8 @@ h1{
 
 /* slogan */
 .slogan_slogan{
-    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .section_slogan{
     background-size: cover;
@@ -253,9 +254,14 @@ h1{
 .section_slogan .slogan_pic {
     display: flex;
     justify-content: center;
-   
 }
-
+.slogan_pic .slogan_img{
+    width: 20%;
+}
+.slogan_pic .slogan_img img {
+    width: 100%;
+    object-fit: cover;
+}
 
 /* products_start */
 .section_products{
