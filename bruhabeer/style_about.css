@@ -254,7 +254,7 @@ img {
     
 }
 .about_flow {
-    width: 100%;
+    /* width: 100%; */
     padding: 45px 0 0;
     margin: 0 0 50px;
     text-align: center;
@@ -345,7 +345,7 @@ img {
     font-weight: 500;
     line-height: 30px; /* 166.667% */
     letter-spacing: 2px;
-    border: 1px solid #DBD1AA;
+    border: 1px solid #ede9d2;
     background: #FFF;
 }
 .about_flow .chart_area .chart_area_type1 .content p{
@@ -388,7 +388,7 @@ img {
     font-weight: 500;
     line-height: 30px; /* 166.667% */
     letter-spacing: 2px;
-    border: 1px solid #DBD1AA;
+    border: 1px solid #ede9d2;
     background: #FFF;
     flex-direction: row-reverse;
 }
