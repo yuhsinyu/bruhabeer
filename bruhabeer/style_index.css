@@ -269,6 +269,21 @@ h1{
     margin-bottom: 100px;
     padding: 50px;
     background-color: rgba(255, 235, 210, 0.30);
+    position: relative;
+}
+.products_wrap .turn_left{
+    padding: 0px 10px;
+    position: absolute;
+    z-index: 1;
+    left: 160px;
+    top: 48%;
+}
+.products_wrap .turn_right{
+    padding: 0px 10px;
+    position: absolute;
+    z-index: 1;
+    right: 160px;
+    top: 48%;
 }
 .title_products{
     color: #320000;
