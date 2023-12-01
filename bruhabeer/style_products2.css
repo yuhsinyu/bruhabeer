@@ -97,6 +97,12 @@ a img {
     font-size: 25px;
     margin: 15px;
 }
+.menu_listall .list_all:hover{
+    background-color: #AF4F41;
+    border: #AF4F41 solid 5px;
+    color: #ffffff;
+    font-weight: bold;
+}
 .menu_listall .list_craft ,.list_season, .list_area, .list_mystery, .list_others{
     width: 100px;
     height: 100px;
@@ -111,7 +117,13 @@ a img {
     color: #AF4F41;
     font-weight: bold;
     font-size: 25px;
-    margin: 30px;
+    margin: 10px;
+}
+.menu_listall .list_craft:hover{
+    background-color: #AF4F41;
+    border: #AF4F41 solid 5px;
+    color: #ffffff;
+    font-weight: bold;
 }
 /* menu_list_end */
 

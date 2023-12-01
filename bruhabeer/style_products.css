@@ -165,7 +165,11 @@ a img {
     gap: 10px;
     border-radius: 50px;
     border: 1px solid #A2A2A2;
-    background: #FFF;
+    background-color: #FFF;
+}
+.beer_craft a:hover{
+    color: #353535;
+    background-color: #FFF9F2;
 }
 /* products_beer_craft_end */
 /* products_beer_season_start */
