@@ -133,28 +133,32 @@ a img {
 .beer_craft .beer_products_title{
     color: #000;
     font-family: Noto Sans;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 600;
-    letter-spacing: 6px;
+    letter-spacing: 5px;
     margin: 100px 0 30px;
 }
 
 .wraps {
     display: flex;
     justify-content: space-around;
-    max-width: 1200px;
+    max-width: 70%;
     margin-top: 20px;
     border-top: 2px solid #e8e6df;
 }
 
 .wrap {
     text-align: center;
+    width: 30%;
     padding: 10px;
     margin: 40px 10px 40px;
     border: 1px solid #ddd;
     border-radius: 3px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #FFF9F2;
+}
+.card img{
+    width: 98%;
 }
 .card .card_contect {
     text-align: start;
@@ -163,16 +167,16 @@ a img {
     text-align: start;
     color: #000;
     font-family: Noto Sans;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 600;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     padding: 15px 3px 5px;
 }
 .card .card_contect h4{
     text-align: start;
     color: #000;
     font-family: Noto Sans;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
     padding: 10px 3px 10px;
@@ -200,14 +204,14 @@ a img {
 .beer_craft a{
     color: #353535;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 5px;
     border: #000 solid 1px;
     border-radius: 50px;
     display: inline-flex;
     padding: 16px 77px;
-    margin: 30px 0px 50px;
+    margin: 35px 0px 45px;
     justify-content: center;
     align-items: center;
     gap: 10px;
