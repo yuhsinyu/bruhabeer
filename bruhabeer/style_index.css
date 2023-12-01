@@ -303,8 +303,10 @@ h1{
     position: relative;
 }
 .product_piclab span{
-    padding: 24px 18px;
-    font-size: 20px;
+    padding: 20px 10px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 700;
     color: #FFF;
     background-color: #DFA176;
     border: #ffffff 2px solid;
@@ -313,7 +315,34 @@ h1{
     z-index: 1;
     margin-top: 220px;
     margin-left: -60px;
-
+}
+.product_piclab2 span{
+    padding: 20px 10px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #8A8585;
+    border: #ffffff 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 220px;
+    margin-left: -60px;
+}
+.product_piclab3 span{
+    padding: 20px 10px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #BBC6C1;
+    border: #ffffff 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 220px;
+    margin-left: -60px;
 }
 .products_wrap .products_card h2{
     text-align: center;
@@ -329,7 +358,7 @@ h1{
 .viewmore a {
     background-color: #ffffff;
     color: #BC9A16;
-    padding: 15px 65px;
+    padding: 10px 55px;
     cursor: pointer;
     font-size: 14px;
     border-radius: 50px;
@@ -337,7 +366,6 @@ h1{
     background: rgba(255, 255, 255, 0.70);
     color: #BC9A16;
     font-family: Nunito;
-    font-size: 16px;
     font-weight: 700;
     display: block;
     text-align: center;
