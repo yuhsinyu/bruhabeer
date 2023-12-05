@@ -12,7 +12,7 @@
     <div class="big-bg">
         <div class="header">
             <h1>
-                <a href="#"><img class = "logo" src="./bruhabeer/logo1.png" alt="首頁"></a>
+                <a href="#"><img class = "logo" src="./bruhabeer/logo3.png" alt="首頁"></a>
             </h1>
             <nav class="menu">
                 <li><a href="index.html">Home</a></li>
@@ -139,7 +139,7 @@
                 <h2>露西法的微笑</h2>
                 <p>Lucifer's Grin<br>辛辣黑啤散發咖啡香氣，每一瓶都散發著魔鬼的微笑。</p>
                 <div class="viewmore">
-                    <a href="#">View More</a>
+                    <a href="products3.html">View More</a>
                     
                 </div>
             </div>
@@ -195,6 +195,21 @@
         </div>
 
     </section>
+    
+    <div id="pagetop" onclick="scrollToTop()">TOP</div>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        window.addEventListener('scroll', function() {
+            var pagetop = document.getElementById('pagetop');
+            if (window.scrollY > 100) {
+                pagetop.style.display = 'block';
+            } else {
+                pagetop.style.display = 'none';
+            }
+        });
+    </script>
 
     <footer class="main_footer">
         <div class="footer_container">
