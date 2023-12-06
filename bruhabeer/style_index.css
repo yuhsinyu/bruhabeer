@@ -144,7 +144,7 @@ h1{
     width: 600px;
     display: flex;
     flex-direction: column;
-    padding: 12px 0;
+    padding: 40px 0;
     justify-content: space-between;
 }
 
@@ -206,24 +206,44 @@ h1{
     /* transition: 0.2s; */
 }
 
-.news_list .news_wrap .news_function a span {
-    font-size: 22px;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+.news_list .news_wrap .news_function a  {
+    font-size: 16px;
+    display: flex;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: #B47549 solid 1px;
+    border-radius: 50px;
+    padding: 20px 40px;
+}
+.news_list .news_wrap .news_function a :hover {
+    font-size: 20px;
     display: flex;
     height: 27px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
 }
-.news_list .news_wrap .news_function a span:hover {
-    font-size: 22px;
-    display: flex;
-    height: 27px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    border: #000 solid 2px;
+/* .viewmore a {
+    background-color: #ffffff;
+    color: #BC9A16;
+    padding: 10px 55px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 50px;
+    border: 1px solid #B47549;
+    background: rgba(255, 255, 255, 0.70);
+    color: #BC9A16;
+    /* font-family: Nunito; */
+    font-weight: 700;
+    display: block;
+    text-align: center;
 }
+.viewmore a:hover {
+    background-color:#8f8d4f;
+    color: #FFF;
+} */
 
 /* 
 .section_contact {
@@ -446,9 +466,6 @@ h1{
     width: 100%;
     object-fit: cover;
 }
-.section_about .about_wrap .about_contect_text {
-    /* margin-top: 5%; */
-}
 .section_about .about_wrap .about_contect_text .about_article{
     color: #000;
     text-align: justify;
@@ -494,7 +511,7 @@ h1{
 
 /* #pagetop:hover {
     background-color: #b47549; /* 設定按鈕懸停時的背景色 */
-} */
+/* } */ */
 
 /* 在滾動時顯示按鈕 */
 body.scroll #pagetop {
