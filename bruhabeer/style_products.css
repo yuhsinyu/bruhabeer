@@ -47,7 +47,9 @@ a img {
 }
 
 .banner_container .banner_bg {
-    max-width: 1500px;
+    max-width: 85%;
+    /* width: 100%;
+    object-fit: cover; */
     height: 250px;
     background-image: url(banner.png);
     background-size: cover;
@@ -106,7 +108,8 @@ a img {
     background-color: #FFF9F2;
 }
 .card img{
-    width: 98%;
+    width: 100%;
+    object-fit: cover;
 }
 .card .card_contect {
     text-align: start;
@@ -148,6 +151,7 @@ a img {
     line-height: 30px; /* 150% */
     letter-spacing: 2px;
     padding: 15px;
+    margin-top: auto;
 }
 .beer_craft a{
     color: #353535;
