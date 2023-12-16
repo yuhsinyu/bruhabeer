@@ -3,38 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BRUHABEER</title>
+    <title>BRUHABEER| about</title>
     <link rel="stylesheet" href="./bruhabeer/style_about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Noto+Sans+TC:wght@300&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./bruhabeer/favicon.ico.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/00437083fa.js" crossorigin="anonymous"></script>
 </head>
 <body>
-        <div class="header">
-            <h1>
-                <a href="index.html"><img class = "logo" src="./bruhabeer/logo1.png" alt="首頁"></a>
-            </h1>
-            <nav class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-                <li><a href="member.html"><img src="./bruhabeer/home_member.png" alt="會員"></a></li>
-                <li><a href="#"><img src="./bruhabeer/home_cart.png" alt="購物車"></a></li>
-                <li><a href="#"><img src="./bruhabeer/home_search.png" alt="搜尋"></a></li>
-            </nav>
-        
-        </div>
-        <section class="section_banner">
-            <div class="banner_container">
-                <div class="banner_bg">
+    <input type="checkbox" name="" id="menu-switch">
+    <div class="main-header">
+            <div class="header">
+                <div class = "logo">
+                    <a href="#"><img src="./bruhabeer/logo5.png" alt="首頁"></a>
                 </div>
-                <div class="banner_text">
-                    <h2>ABOUT</h2>
-                </div>
+
+                <nav class="menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="member.html"><img src="./bruhabeer/home_member.png" alt="會員"></a></li>
+                    <li><a href="#"><img src="./bruhabeer/home_cart.png" alt="購物車"></a></li>
+                    <li><a href="#"><img src="./bruhabeer/home_search.png" alt="搜尋"></a></li>
+                </nav>
+                <label for="menu-switch" class="hb">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>                
             </div>
-        </section>
+            <section class="section_banner">
+                <div class="banner_container">
+                    <div class="banner_bg">
+                        <!-- banner background content -->
+                    </div>
+                    <div class="banner_text">
+                        <h2>NEWS</h2>
+                    </div>
+                </div>
+            </section>
+    </div>
     <section class="section-about-123">
 
         <div class="about_top_contect">
@@ -43,48 +53,79 @@
 
         <div class="wide_1080">
             <ul class="about_menu">
-                <li class="menu_feature"><a href="#feature"><img src="./bruhabeer/about_insist.png" alt=""><span>我們的堅持</span></a></li>
-                <li class="menu_flow"><a href="#flow"><img src="./bruhabeer/about_flow.png" alt=""><span>製作流程</span></a></li>
-                <li class="menu_team"><a href="#team"><img src="./bruhabeer/about_team.png" alt=""><span>關於團隊</span></a></li>
+                <li class="menu_feature"><a href="#feature"><img src="./bruhabeer/about_insist.png" alt=""><span>關於堅持</span>
+                    <span><i class="fa-solid fa-angle-down fa-xl"></i></span>
+                </a></li>
+                <li class="menu_flow"><a href="#flow"><img src="./bruhabeer/about_flow.png" alt=""><span>製作流程</span>
+                    <span><i class="fa-solid fa-angle-down fa-xl"></i></span>
+                </a></li>
+                <li class="menu_team"><a href="#team"><img src="./bruhabeer/about_team.png" alt=""><span>關於團隊</span>
+                    <span><i class="fa-solid fa-angle-down fa-xl"></i></span>
+                </a></li>
             </ul>
-            <!-- about_feature -->
-            <div class="about_title" id="feature">
-                    <img src="./bruhabeer/about_insist.png" alt="">
-                    <h2>我們的堅持</h2>    
-            </div>
 
-            <div class="about_feature">
-                <div class="content">
-                    <h3>01</h3>
-                    <div class="text">
-                        <h3 class="text_title">品質堅持 - 精湛工藝、無妥協</h3>
+            <div class="lineline"></div>
+            <!-- ---------------------------- -->
+            <!-- about_feature -->
+
+            <section class="about_feature">
+
+                <div class="about_title" id="feature">
+                        <img src="./bruhabeer/about_insist.png" alt="我們的堅持">
+                        <h2>關於堅持</h2>    
+                </div>                
+
+                <div class="feature_content">
+                    <div class="feature_content_numtex">
+                        <div class="feature_content_num">
+                            <img src="./bruhabeer/about_feature1_01.png" alt="">
+                        </div>   
+                        <div class="feature_content_text">
+                        <p class="feature_content_text_title">品質堅持 - 精湛工藝無妥協</p>
                         <p>我們堅信品質是「B-Ru Ha啤酒造所」的靈魂。從選材到釀製，我們以精湛的工藝和堅持嚴格的品質標準，確保每一瓶啤酒都是極致的味覺享受。我們絕不妥協於品質，為您呈現最純粹、最卓越的精釀啤酒。</p>
+                        </div>
                     </div>
-                    <div class="img">
+                    <div class="feature_content_img">
                         <img src="./bruhabeer/about_feature1.png" alt="">
-                    </div>
+                    </div>    
+
+                    
                 </div>
-                <div class="content">
-                    <h3>02</h3>
-                    <div class="text">
-                        <h3 class="text_title">創新堅持 - 啤酒文化的探險者</h3>
-                        <p>在「B-Ru Ha啤酒造所」，我們堅持不斷探索和創新。我們的釀酒師團隊勇於嘗試新的風味組合和釀造技術，帶來令人驚喜的啤酒口感。作為啤酒文化的前衛探險者，我們引領著精釀啤酒的演進。</p>
+                
+                <div class="feature_content2" >
+                    <div class="feature_content_num2">
+                        <img src="./bruhabeer/about_feature2_02.png" alt="">
                     </div>
-                    <div class="img">
-                        <img src="./bruhabeer/about_feature2.png" alt="">
+                    <div class="feature_content_textimg2">
+                        
+                        <div class="feature_content_text">
+                            <p class="feature_content_text_title">創新堅持 - 啤酒文化的探險者</p>
+                            <p>在「B-Ru Ha啤酒造所」，我們堅持不斷探索和創新。我們的釀酒師團隊勇於嘗試新的風味組合和釀造技術，帶來令人驚喜的啤酒口感。作為啤酒文化的前衛探險者，我們引領著精釀啤酒的演進。</p>
+                        </div>
+                        <div class="feature_content_img2">
+                            <img src="./bruhabeer/about_feature2.png" alt="">
+                        </div>
                     </div>
+                    
                 </div>
-                <div class="content">
-                    <h3>03</h3>
-                    <div class="text">
-                        <h3 class="text_title">本地堅持 - 擁抱當地風土人情</h3>
+
+                <div class="feature_content">
+                    <div class="feature_content_num">
+                        <img src="./bruhabeer/about_feature3_03.png" alt="">
+                    </div>
+                    <div class="feature_content_textimg">
+                    <div class="feature_content_text">
+                        <p class="feature_content_text_title">在地堅持 - 擁抱當地風土人情</p>
                         <p>我們深深熱愛我們所處的社區，因此堅持與當地農夫和商家合作，將本地的風土元素融入啤酒製作中。這種本地堅持不僅令我們的啤酒獨具特色，也是對當地社區的愛和承諾。</p>
                     </div>
-                    <div class="img">
+                    <div class="feature_content_img">
                         <img src="./bruhabeer/about_feature3.png" alt="">
+                    </div>    
                     </div>
+                    
                 </div>
-            </div> 
+            </section>
+ 
             <!-- about_feature -->
             <!-- about_flow -->
             <div class="about_flow_bg">
@@ -95,48 +136,53 @@
                     <p class="flow_text">「B-Ru Ha啤酒造所」的製作流程始於挑選上等大麥和啤酒花，經嚴格的磨碎、煮沸、加麥芽汁等步驟，形成麥汁。接著，添加酵母進行發酵，並進行陳釀過程，使啤酒風味逐漸豐富。最終，經過濾和裝瓶，呈現出清新、醇厚的極致風味。我們堅守優質原料，並以創新技術製作，為您帶來獨特的品味體驗。</p>
                 </div>
                 <div class="flow_raw" >
-    
-                        <div class="flow_raw_1"><div class="img"><img src="./bruhabeer/flow_malt_2.png" alt="麥芽"><h3>麥芽</h3></div><div class="text"><p>經過嚴格挑選和特殊處理，賦予啤酒深邃的芳香和豐富的麥芽風味。</p></div></div>
+                        <div class="flow_rawraw">
+                            <div class="flow_raw_1"><div class="img"><img src="./bruhabeer/flow_malt_2.png" alt="麥芽"><h3>麥芽</h3></div><div class="text"><p>經過嚴格挑選和特殊處理，賦予啤酒深邃的芳香和豐富的麥芽風味。</p></div></div>
 
-                        <div class="flow_raw_1"><div class="img"><img src="./bruhabeer/flow_hops_2.png" alt="啤酒花"><h3>啤酒花</h3></div><div class="text"><p>上精心培育而成的啤酒花，賦予啤酒獨特的花香和清新的苦味，如同陽光般照耀啤酒的每一滴。</p></div></div>
+                            <div class="flow_raw_1"><div class="img"><img src="./bruhabeer/flow_hops_2.png" alt="啤酒花"><h3>啤酒花</h3></div><div class="text"><p>上精心培育而成的啤酒花，賦予啤酒獨特的花香和清新的苦味，如同陽光般照耀啤酒的每一滴。</p></div></div>    
+                        </div>
+                        
+                        <div class="flow_rawraw">
+                            <div class="flow_raw_1"><div class="img"><img src="./bruhabeer/flow_water_2.png" alt="水"><h3>玉山水源</h3><div class="text"><p>選自天然泉水，是啤酒靈魂的來源，賦予清澈、純淨的水質，確保每一杯啤酒都蘊含著自然的恩賜。</p></div></div></div>
 
-                        <div class="flow_raw_1"><div class="img"><img src="./bruhabeer/flow_water_2.png" alt="水"><h3>玉山水源</h3><div class="text"><p>選自天然泉水，是啤酒靈魂的來源，賦予清澈、純淨的水質，確保每一杯啤酒都蘊含著自然的恩賜。</p></div></div></div>
-
-                        <div class="flow_raw_1"><div class="img"><img src="./bruhabeer/flow_yeast_2.png" alt="酵母"><h3>酵母</h3></div><div class="text"><p>由釀酒師秘密培育的酵母，帶來啤酒的獨特風味和香氣，是釀酒藝術中不可或缺的神秘元素。</p></div></div>
+                            <div class="flow_raw_1"><div class="img"><img src="./bruhabeer/flow_yeast_2.png" alt="酵母"><h3>酵母</h3></div><div class="text"><p>由釀酒師秘密培育的酵母，帶來啤酒的獨特風味和香氣，是釀酒藝術中不可或缺的神秘元素。</p></div></div>    
+                        </div>
+                        
                     
                 </div><!-- floow_raw -->
                 <div class="chart_area">
                     <div class="chart_area_type1">
                         <div class="flow1"><h3>01<br>配方設計</h3></div>
-                        <div class="content"><p>我們做的第一件事是設計一個配方，設想製作過程的每個細節。為了利用所用輔助原料的特點，我們考慮了麥芽和啤酒花的種類、分佈以及輔助原料的添加時機。可以說這是啤酒的「藍圖」。</p><img src="./bruhabeer/flowstep1.png" alt="步驟1"></div>
+                        <div class="chart_area_content"><p>我們做的第一件事是設計一個配方，設想製作過程的每個細節。為了利用所用輔助原料的特點，我們考慮了麥芽和啤酒花的種類、分佈以及輔助原料的添加時機。可以說這是啤酒的「藍圖」。</p><img src="./bruhabeer/flowstep1.png" alt="步驟1">
+                        </div>
                     </div>
                     <div class="chart_area_type2">
-                        <div class="flow1"><h3>02<br>選擇原料</h3></div>
-                        <div class="content"><p>從藍圖所列出來的材料項目引進優質的原料，包括大麥、啤酒花、酵母和水，確保品質基礎。並做最好的保存，讓我們的原料可以在最家狀態進行使用。</p><img src="./bruhabeer/flowstep2.png" alt="步驟2"></div>
+                        <div class="flow2"><h3>02<br>選擇原料</h3></div>
+                        <div class="chart_area_content2"><p>從藍圖所列出來的材料項目引進優質的原料，包括大麥、啤酒花、酵母和水，確保品質基礎。並做最好的保存，讓我們的原料可以在最佳狀態進行使用。</p><img src="./bruhabeer/flowstep2.png" alt="步驟2"></div>
                     </div>
                     <div class="chart_area_type1">
                         <div class="flow1"><h3>03<br>磨碎麥芽</h3></div>
-                        <div class="content"><p>首先，我們先將磨碎成麥芽，這有助於提供釀造所需的醣類基礎。碾碎過程使大麥解構，促使後續的糖化過程，讓酵素更容易轉化澱粉為發酵所需的糖分。<br>這一步確保了麥芽中的養分能夠在後續的釀造過程中充分發揮作用，會影響啤酒的風味和口感的一個重要步驟。</p><img src="./bruhabeer/flowstep3.png" alt="步驟3"></div>
+                        <div class="chart_area_content"><p>首先，我們先將磨碎成麥芽，這有助於提供釀造所需的醣類基礎。碾碎過程使大麥解構，促使後續的糖化過程，讓酵素更容易轉化澱粉為發酵所需的糖分。<br>這一步確保了麥芽中的養分能夠在後續的釀造過程中充分發揮作用，會影響啤酒的風味和口感的一個重要步驟。</p><img src="./bruhabeer/flowstep3.png" alt="步驟3"></div>
                     </div>
                     <div class="chart_area_type2">
-                        <div class="flow1"><h3>04<br>製備過程</h3></div>
-                        <div class="content"><p>將大麥中的澱粉糖化，過濾提取麥芽汁，將麥芽汁在100℃煮沸90分鐘以殺死細菌。接著，加入啤酒花後，除去不需要的固體，最後將酵母冷卻至20℃左右，使酵母發揮活性，準備完成。</p><img src="./bruhabeer/flowstep4.png" alt="步驟4"></div>
+                        <div class="flow2"><h3>04<br>製備過程</h3></div>
+                        <div class="chart_area_content2"><p>將大麥中的澱粉糖化，過濾提取麥芽汁，將麥芽汁在100℃煮沸90分鐘以殺死細菌。接著，加入啤酒花後，除去不需要的固體，最後將酵母冷卻至20℃左右，使酵母發揮活性，準備完成。</p><img src="./bruhabeer/flowstep4.png" alt="步驟4"></div>
                     </div>
                     <div class="chart_area_type1">
                         <div class="flow1"><h3>05<br>發酵</h3></div>
-                        <div class="content"><p>將酵母加入麥汁中，最後進入發酵階段。酵母透過吃麥汁中的糖分來產生酒精和二氧化碳氣體。<br>釀酒師在發酵過程中控制溫度和 pH 值，所做的就是為酵母創造一個舒適的環境，使酵母發揮最好的功能。</p><img src="./bruhabeer/flowstep5.png" alt="步驟5"></div>
+                        <div class="chart_area_content"><p>將酵母加入麥汁中，最後進入發酵階段。酵母透過吃麥汁中的糖分來產生酒精和二氧化碳氣體。<br>釀酒師在發酵過程中控制溫度和 pH 值，所做的就是為酵母創造一個舒適的環境，使酵母發揮最好的功能。</p><img src="./bruhabeer/flowstep5.png" alt="步驟5"></div>
                     </div>
                     <div class="chart_area_type2">
-                        <div class="flow1"><h3>06<br>配方設計</h3></div>
-                        <div class="content"><p>剛完成發酵的啤酒被轉移到儲罐中，透過保持低溫，酵母和蛋白質會硬化並沉澱，使其更加清澈。透過這個過程，啤酒的苦澀味道會被淡化，創造出和諧的風味。</p><img src="./bruhabeer/flowstep6.png" alt="步驟6"></div>
+                        <div class="flow2"><h3>06<br>儲存濾清</h3></div>
+                        <div class="chart_area_content2"><p>剛完成發酵的啤酒被轉移到儲罐中，透過保持低溫，酵母和蛋白質會硬化並沉澱，使其更加清澈。透過這個過程，啤酒的苦澀味道會被淡化，創造出和諧的風味。</p><img src="./bruhabeer/flowstep6.png" alt="步驟6"></div>
                     </div>
                     <div class="chart_area_type1">
-                        <div class="flow1"><h3>07<br>配方設計</h3></div>
-                        <div class="content"><p>我們將釀造好的啤酒裝瓶和分裝小桶準備裝運，並以最溫和的方式掌握裝瓶的每一個細節。</p><img src="./bruhabeer/flowstep7.png" alt="步驟7"></div>
+                        <div class="flow1"><h3>07<br>裝瓶</h3></div>
+                        <div class="chart_area_content"><p>我們將釀造好的啤酒裝瓶和分裝小桶準備裝運，並以最溫和的方式掌握裝瓶的每一個細節。</p><img src="./bruhabeer/flowstep7.png" alt="步驟7"></div>
                     </div>
                     <div class="chart_area_type1">
                         </p><img src="./bruhabeer/flowstep8.png" alt="">
-                        <div class="content"><p>我們將釀造好的啤酒裝瓶和分裝小桶準備裝運，並以最溫和的方式掌握裝瓶的每一個細節。</div>
+
                     </li>
                 </div><!-- chart_area -->
             </section>
@@ -148,8 +194,7 @@
                 <img src="./bruhabeer/about_team.png" alt="關於團隊">
                 <h2>關於團隊</h2>
 
-                <div class="wide_795">
-                    <p class="team_text">「B-Ru Ha啤酒造所」的釀酒師團隊是我們啤酒之魂的創作者，他們擁有獨特的品味視野和專業技藝，將創意注入每一滴啤酒的釀製中。憑藉多年的經驗和深厚的啤酒知識，我們的釀酒師將藉由獨特的釀造技巧打破傳統界限，呈現出令人驚艷的啤酒系列。他們對品質的堅持和對創新的追求，讓「B-Ru Ha啤酒造所」的每一瓶都是獨一無二的精釀佳釀。</p></div>
+                    <p class="team_text">「B-Ru Ha啤酒造所」的釀酒師團隊是我們啤酒之魂的創作者，他們擁有獨特的品味視野和專業技藝，將創意注入每一滴啤酒的釀製中。憑藉多年的經驗和深厚的啤酒知識，我們的釀酒師將藉由獨特的釀造技巧打破傳統界限，呈現出令人驚艷的啤酒系列。他們對品質的堅持和對創新的追求，讓「B-Ru Ha啤酒造所」的每一瓶都是獨一無二的精釀佳釀。</p>
 
                 <div class="img_fac">
                 <img src="./bruhabeer/about_team_fac.png">      
@@ -175,14 +220,14 @@
 
                 </div>
             </div>
-        </div>
+        
     </section>
     <footer class="main_footer">
         <div class="footer_container">
 
             <div class="footer_list1">
                 <div class="footer_logo">
-                    <img src="./bruhabeer/logo2.png" alt="">
+                    <img src="./bruhabeer/logo3.png" alt="">
                 </div>
 
                 <div class="footer_info">
