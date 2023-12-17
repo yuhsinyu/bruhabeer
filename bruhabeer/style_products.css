@@ -314,6 +314,19 @@ background-image: url(./products_season_bg.png);
 }
 /* products_beer_season_end */
 
+/* slogan */
+
+.section_slogan .slogan_pic {
+    display: flex;
+    justify-content: center;
+}
+.slogan_pic .slogan_img{
+    width: 20%;
+}
+.slogan_pic .slogan_img img {
+    width: 100%;
+    object-fit: cover;
+}
 
 @media (max-width: 768px) {
     .wraps {
@@ -335,32 +348,13 @@ background-image: url(./products_season_bg.png);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         background-color: #FFF9F2;
         position: relative;
+    }
 
 }
 
 
 
 
-/* slogan */
-.slogan{
-    background-size: cover;
-    background: rgba(255, 235, 210, 0.30);
-}
-.slogan .slogan_pic {
-    display: flex;
-    justify-content: center;
-}
-/* slogan */
-
-.beer_craft .others_products_title {
-    color: #000;
-    font-family: Noto Sans;
-    font-size: 38px;
-    font-weight: 600;
-    letter-spacing: 6px;
-    margin: 80px 0 30px;
-    text-align: left;
-}
 
 /* footer _start*/
 .main_footer {
@@ -477,4 +471,3 @@ background-image: url(./products_season_bg.png);
     }
     }
     /* footer _end*/
-    
