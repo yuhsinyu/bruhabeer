@@ -195,6 +195,7 @@ a img {
 /* products_beer_craft_start */
 .beer_craft {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -211,21 +212,28 @@ a img {
 
 .wraps {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 70%;
+    max-width: 75%;
     margin-top: 20px;
     border-top: 2px solid #e8e6df;
+    padding: 20px;
 }
 
 .wrap {
     text-align: center;
-    width: 30%;
+    width: 28%;
     padding: 10px;
-    margin: 40px 10px 40px;
+    margin: 1%;
     border: 1px solid #ddd;
     border-radius: 3px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #FFF9F2;
+    position: relative;
+}
+.card {
+    display: flex;
+    flex-direction: column;
 }
 .card img{
     width: 100%;
@@ -234,7 +242,7 @@ a img {
 .card .card_contect {
     text-align: start;
 }
-.card .card_contect h1{
+.card .card_contect .card_contect_title{
     text-align: start;
     color: #000;
     font-family: Noto Sans;
@@ -243,16 +251,16 @@ a img {
     letter-spacing: 3px;
     padding: 15px 3px 5px;
 }
-.card .card_contect h4{
+.card .card_contect .card_contect_titleE{
     text-align: start;
     color: #000;
-    font-family: Noto Sans;
-    font-size: 16px;
+    font-family: nunito;
+    font-size: 14px;
     font-weight: 600;
-    letter-spacing: 2px;
-    padding: 10px 3px 10px;
+    letter-spacing: 1px;
+    padding: 5px 3px 8px;
 }
-.card .card_contect p{
+.card .card_contect .card_contect_text{
     text-align: start;
     color: #000;
     font-family: Noto Sans;
@@ -261,17 +269,21 @@ a img {
     line-height: 30px; /* 150% */
     letter-spacing: 0.25em;
     padding: 10px 3px 10px;
+    text-align: justify;
 }
-.card .card_contect .price{
-    text-align: end;
+.card_contect_price {
+    margin-top: 20%;
+}
+.price{
+    
     color: #000;
     font-family: Nunito;
     font-size: 20px;
     font-weight: 400;
-    line-height: 30px; /* 150% */
-    letter-spacing: 2px;
-    padding: 15px;
-    margin-top: auto;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+
 }
 .beer_craft a{
     color: #353535;
@@ -301,6 +313,34 @@ a img {
 background-image: url(./products_season_bg.png);
 }
 /* products_beer_season_end */
+
+
+@media (max-width: 768px) {
+    .wraps {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card .card_contect .card_contect_text {
+        display: none;
+    }
+
+    .wrap {
+        text-align: center;
+        width: 80%;
+        padding: 10px;
+        margin: 1%;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #FFF9F2;
+        position: relative;
+
+}
+
+
+
+
 /* slogan */
 .slogan{
     background-size: cover;
@@ -327,84 +367,114 @@ background-image: url(./products_season_bg.png);
     width: 100%;
     margin: auto;
     background-color:#CD9933;
-}
-.footer_container {
+    }
+    .footer_container {
     display: flex;
-    padding: 60px 0 50px;
-    max-width: 90%;
+    padding: 40px 0 50px;
+    max-width: 100%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-.main_footer .footer_container {
-    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .main_footer .footer_container {
+    width: 85%;
+    height: auto;
     margin: auto;
-
-}
-.footer_container .footer_list1 {
+    
+    }
+    .footer_container .footer_list1 {
     display: flex;
     flex-direction: column;
     gap: 45px;
     padding: 0px;
-}
-.footer_container .footer_list1 .footer_logo img {
-    width: 90%;
-}
-.footer_container .footer_list1 .footer_info p {
+    }
+    .footer_container .footer_list1 .footer_info p {
     width: 100%;
-    height: 151px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: Inter;
     font-size: 16px;
     font-weight: 500;
     line-height: 3em;
     letter-spacing: 1px;
-}
-
-
-.footer_container .footer_list2 {
+    }
+    
+    
+    .footer_container .footer_list2 {
+    /* width: 100%; */
     margin-left: 5%;
     display: flex;
     flex-direction: column;
     /* padding: 200px; */
-}
-.footer_container .footer_list2 .nav {
+    }
+    
+    .footer_container .footer_list2 .nav {
     display: flex;
     flex-direction: row;
     margin-left: auto;
     gap: 26px;
-}
-
-.footer_container .footer_list2 .nav a {
+    }
+    
+    .footer_container .footer_list2 .nav a {
     display: inline-block;
     text-decoration: none;
     color: white;
     font-size: 15px;
     font-weight: 500;
-}
-
-.footer_container .footer_list2 .follow {
+    font-weight: bold;
+    letter-spacing: 2px;
+    }
+    
+    .footer_container .footer_list2 .follow {
     margin-left: 20px;
     margin-top: 20%;
     margin-bottom: 15%;
     display: flex;
-}
-.footer_container .footer_list2 .follow img {
+    justify-content: flex-end;
+    }
+    .footer_container .footer_list2 .follow img {
     width: 40px;
     display: flex;
     margin-right: 20px;
-}
-
-.footer_container .footer_copyright {
+    }
+    
+    .footer_container .footer_copyright {
     padding-bottom: 20px;
     text-align: end;
-}
-
-.footer_container .footer_copyright p {
+    }
+    
+    .footer_container .footer_copyright p {
     font-size: 12px;
     font-weight: 300;
     line-height: 1.5;
     color: white;
-}
-/* footer _end*/
+    }
+    @media (max-width: 768px) {
+    .footer_container .footer_list2 .nav a {
+    display: none;
+    }  
+    .footer_container .footer_list2 .follow {
+    margin: 0;
+    }
+    .footer_container .footer_copyright {
+    padding-bottom: 10px;
+    text-align: end;
+    }
+    
+    .footer_container .footer_copyright p {
+    font-size: 12px;
+    font-weight: 300;
+    /* line-height: 1; */
+    color: rgb(255, 255, 255);
+    margin: 2px;
+    }
+    .footer_container {
+    display: flex;
+    padding: 60px 0 50px;
+    max-width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    /* justify-content: end; */
+    }
+    }
+    /* footer _end*/
+    
