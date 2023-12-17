@@ -67,8 +67,8 @@ a img {
 .banner_container .banner_text {
     position: absolute;
     top: 40%;
-    left: 30%;
-    transform: translate(-50%, 0);
+    left: 15%;
+    /* transform: translate(-50%, 0); */
 }
 
 .banner_container .banner_text h2 {
@@ -78,6 +78,9 @@ a img {
     letter-spacing: 4px;
     padding: 20px 0;
 }
+
+/* header_end */
+
 /* 漢堡 */
 #menu-switch{
     display: none;
@@ -127,7 +130,6 @@ a img {
 .menu a {
     text-decoration: none;
     color: #000;
-    width: 100%;
 }
 @media (max-width: 768px) {
     #menu-switch:checked ~ .main-header .header .menu

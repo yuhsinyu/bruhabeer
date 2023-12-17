@@ -67,8 +67,8 @@ a img {
 .banner_container .banner_text {
     position: absolute;
     top: 40%;
-    left: 30%;
-    transform: translate(-50%, 0);
+    left: 15%;
+    /* transform: translate(-50%, 0); */
 }
 
 .banner_container .banner_text h2 {

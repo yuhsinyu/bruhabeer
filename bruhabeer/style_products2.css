@@ -67,8 +67,8 @@ a img {
 .banner_container .banner_text {
     position: absolute;
     top: 40%;
-    left: 30%;
-    transform: translate(-50%, 0);
+    left: 15%;
+    /* transform: translate(-50%, 0); */
 }
 
 .banner_container .banner_text h2 {
@@ -78,6 +78,9 @@ a img {
     letter-spacing: 4px;
     padding: 20px 0;
 }
+
+/* header_end */
+
 /* 漢堡 */
 #menu-switch{
     display: none;
@@ -127,7 +130,6 @@ a img {
 .menu a {
     text-decoration: none;
     color: #000;
-    width: 100%;
 }
 @media (max-width: 768px) {
     #menu-switch:checked ~ .main-header .header .menu
@@ -240,6 +242,9 @@ a img {
     font-weight: bold;
     font-size: 25px;
     margin: 10px;
+    flex-direction: column;
+    line-height: 1.3em;
+
 }
 .menu_listall .list_craft:hover{
     background-color: #AF4F41;
@@ -293,6 +298,8 @@ a img {
         font-weight: bold;
         font-size: 25px;
         margin: 15px;
+        flex-direction: column;
+        /* align-content: center; */
     }
 
     .menu_listall_rwd .list_craft_rwd ,.list_season_rwd, .list_area_rwd, .list_mystery_rwd, .list_others_rwd{
@@ -337,9 +344,13 @@ a img {
     font-size: 38px;
     font-weight: 600;
     letter-spacing: 5px;
-    margin: 100px 0 30px;
+    margin: 60px 0 30px;
 }
-
+@media (max-width: 768px) {
+    .beer_craft .beer_products_title {
+        margin: 30px 0 30px;
+    }
+}
 .wraps {
     display: flex;
     flex-wrap: wrap;
