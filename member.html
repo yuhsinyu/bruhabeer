@@ -12,40 +12,50 @@
 </head>
 <body>
     
-    <div class="header">
-        <h1>
-            <a href="index.html"><img class = "logo" src="./bruhabeer/logo1.png" alt="首頁"></a>
-        </h1>
-        <nav class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="#"><img src="./bruhabeer/home_member.png" alt="會員"></a></li>
-            <li><a href="#"><img src="./bruhabeer/home_cart.png" alt="購物車"></a></li>
-            <li><a href="#"><img src="./bruhabeer/home_search.png" alt="搜尋"></a></li>
-        </nav>
-    
+    <input type="checkbox" name="" id="menu-switch">
+    <div class="main-header">
+            <div class="header">
+                <div class = "logo">
+                    <a href="index.html"><img src="./bruhabeer/logo5.png" alt="首頁"></a>
+                </div>
+
+                <nav class="menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="member.html"><img src="./bruhabeer/home_member.png" alt="會員"></a></li>
+                    <li><a href="#"><img src="./bruhabeer/home_cart.png" alt="購物車"></a></li>
+                    <li><a href="#"><img src="./bruhabeer/home_search.png" alt="搜尋"></a></li>
+                </nav>
+                <label for="menu-switch" class="hb">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>                
+            </div>
+            <section class="section_banner">
+                <div class="banner_container">
+                    <div class="banner_bg">
+                        <!-- banner background content -->
+                    </div>
+                    <div class="banner_text">
+                        <h2>MEMBER</h2>
+                    </div>
+                </div>
+            </section>
     </div>
-    <section class="section_banner">
-        <div class="banner_container">
-            <div class="banner_bg">
-                <!-- banner background content -->
-            </div>
-            <div class="banner_text">
-                <h2>MEMBER</h2>
-            </div>
-        </div>
-    </section>
 
     <section class="member_title">
         <h1 class="member_title_hello">您好，誠摯歡迎您。</h1>
-        <h4 class="member_title_welcome">歡迎成為「「B-Ru Ha啤酒造所」」會員！享有獨家優惠、限定活動及新品消息。與我們一同探索啤酒的無窮可能性，共同品味濃郁風味。<br>會員註冊，即刻開啟精釀啤酒之旅！</h4>
+        <h4 class="member_title_welcome">歡迎成為「B-Ru Ha啤酒製所」會員！享有獨家優惠、限定活動及新品消息。與我們一同探索啤酒的無窮可能性，共同品味濃郁風味。<br>會員註冊，即刻開啟精釀啤酒之旅！</h4>
     </section>
 
     <div class="contect_form">
-        <h2 class="member_log">會員註冊</h2>
+        <div class="contect_form_title">
+            <p class="member_log">會員註冊</p>            
+        </div>
+
         <div class="form_content">
             
             <div class="form_content_name">
@@ -73,7 +83,7 @@
                 </div>
             </div>
             <div class="form_content_date">
-                <div class="date_label">出生年月日</div>
+                <div class="date_label">出生日期</div>
                 <div class="date_input">
                     <input type="date" id="date" name="phone" placeholder="" required>                      
                 </div>
@@ -92,19 +102,50 @@
                 </div>
             </div> 
         </div>
-
-
             <div class="member_notice">
                 <p class="member_notice_text">
-                    註冊成為「啤酒哈」會員前，請留意以下注意事項：
-                    <br>請提供真實且準確的個人資訊。
-                    <br>保護好您的帳戶資訊，切勿分享給他人。
-                    <br>定期檢查您的會員資訊，確保其正確性。
-                    <br>活動優惠及通知將以郵件或簡訊方式發送，請確認您的聯絡方式正確。
-                    <br>如有任何疑慮或疑問，歡迎聯絡我們的客服團隊。感謝您的支持與理解。</p>                    
-            </div>       
-        <div class="wrapper">
-            <button class="">
+                    註冊成為「啤酒哈」會員前，請留意以下注意事項 :</p>                    
+            </div>      
+            <div class="notice">
+            <ul>
+                <div class="notice_ckt">
+                    <input type="checkbox" id="scales" name="scales" class="noticeck"/>
+                    <label for="scales"><li><a href="#example1" class="notice_ckt_a">隱私政策</a></li></label>
+                  </div>
+                
+                  <div class="notice_ckt">
+                    <input type="checkbox" id="horns" name="horns" class="noticeck"/>
+                    <label for="horns"><li><a href="#example2" class="notice_ckt_a">服務條款</a></li></label>
+                  </div>
+
+            </ul>
+            </div>
+
+        <div class="lightbox" id="example1">
+            <figure>
+              <a href="#" class="close"></a>
+              <figcaption>B-Ru Ha啤酒製所非常重視您的隱私權，我們依據「個人資料保護法」及相關法令蒐集、處理及利用您的個人資料，且未經您的同意，我們不會任意出售您的姓名或其他您所提供的資料。請您詳細閱讀以下之規定，以更進一步了解我們的隱私權聲明。當您提交您的個人及相關資料給B-Ru Ha啤酒製所或者持續瀏覽、使用B-Ru Ha啤酒製所網站及程式時，即視為您已同意本隱私權聲明之規定。
+
+                一、適用範圍
+                適用於B-Ru Ha啤酒製所旗下所有品牌與B-Ru Ha啤酒製所網站及程式以及所發起之任何行銷、推廣、抽獎及其他各項活動等，但不適用於第三方網站或內容。B-Ru Ha啤酒製所網站及程式內可能含有其他外部連結或其他合作夥伴所提供的服務，有關該等連結網站或合作夥伴網站的隱私權聲明，請參閱各該連結網站或合作夥伴網站。
+                無論您所居住的國家或地區為何，您都同意授權B-Ru Ha啤酒製所根據本隱私權聲明在您所居住國家或地區以外之處蒐集、傳輸、處理、儲存及使用您的個人資料，以便向您提供服務。</figcaption>
+            </figure>
+          </div>
+          
+          <div class="lightbox" id="example2">
+            <figure>
+              <a href="#" class="close"></a>
+              <figcaption>我們非常重視您的相關權益，請您在開始使用本平台相關服務(以下簡稱本服務)前，務必先仔細閱讀以下使用者服務條款。
+           
+                一、認知與接受條款
+                B-Ru Ha啤酒製所係依據本「使用者服務條款」(以下簡稱本服務條款)提供本平台使用者及王品瘋美食註冊會員之權益服務。當您完成本平台之會員註冊手續、或開始使用或繼續使用本平台所提供之任一服務時，即表示您已詳細閱讀、瞭解並同意接受本服務條款之所有內容，且完全接受本服務現有與未來衍生的服務項目及內容。
+                B-Ru Ha啤酒製所有權於任何時間修改或變更本服務條款之內容，修改變更後的服務條款內容將直接公告於本平台後即時生效，本平台不會再個別通知您，建議您隨時注意本平台的公告，或者於每次使用本平台時，請重新檢視本服務條款內容。若您於本服務條款修改或變更後仍繼續瀏覽本平台或使用本服務時，即視為您已詳細閱讀、瞭解並同意接受該等修改或變更。若不同意本服務條款修改或變更後內容，或者不接受本服務條款的其他任一約定，請您應立即停止瀏覽本平台或使用本服務。您並同意因使用、參與本平台及本服務而與B-Ru Ha啤酒製所發生之權利義務關係，均以本條款最新修訂之版本為準。</figcaption>
+            </figure>
+          </div>
+
+
+          <div class="wrapper">
+            <button type="submit" class="">
             <span>送出</span>
             <div class="success">
             </div>
@@ -118,7 +159,7 @@
 
             <div class="footer_list1">
                 <div class="footer_logo">
-                    <img src="./bruhabeer/logo2.png" alt="">
+                    <img src="./bruhabeer/logo3.png" alt="">
                 </div>
 
                 <div class="footer_info">

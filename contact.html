@@ -3,39 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BRUHABEER</title>
+    <title>BRUHABEER | CONTACT</title>
     <link rel="stylesheet" href="./bruhabeer/style_contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Noto+Sans+TC:wght@300&family=Nunito&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <h1>
-            <a href="index.html"><img class = "logo" src="./bruhabeer/logo1.png" alt="首頁"></a>
-        </h1>
-        <nav class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="member.html"><img src="./bruhabeer/home_member.png" alt="會員"></a></li>
-            <li><a href="#"><img src="./bruhabeer/home_cart.png" alt="購物車"></a></li>
-            <li><a href="#"><img src="./bruhabeer/home_search.png" alt="搜尋"></a></li>
-        </nav>
-    
+    <input type="checkbox" name="" id="menu-switch">
+    <div class="main-header">
+            <div class="header">
+                <div class = "logo">
+                    <a href="index.html"><img src="./bruhabeer/logo5.png" alt="首頁"></a>
+                </div>
+
+                <nav class="menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="member.html"><img src="./bruhabeer/home_member.png" alt="會員"></a></li>
+                    <li><a href="#"><img src="./bruhabeer/home_cart.png" alt="購物車"></a></li>
+                    <li><a href="#"><img src="./bruhabeer/home_search.png" alt="搜尋"></a></li>
+                </nav>
+                <label for="menu-switch" class="hb">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>                
+            </div>
+            <section class="section_banner">
+                <div class="banner_container">
+                    <div class="banner_bg">
+                        <!-- banner background content -->
+                    </div>
+                    <div class="banner_text">
+                        <h2>CONTACT</h2>
+                    </div>
+                </div>
+            </section>
     </div>
-    <section class="section_banner">
-        <div class="banner_container">
-            <div class="banner_bg">
-                <!-- banner background content -->
-            </div>
-            <div class="banner_text">
-                <h2>CONTACT</h2>
-            </div>
-        </div>
-    </section>
 
     <div class="contact">
         <div class="contact_information">
@@ -50,7 +57,7 @@
                 <div class="phone_icon">
                     <img src="bruhabeer/icon_phone.png" alt="">
                 </div>
-                <div class="text">電話 : 03 425 1108</div>
+                <div class="text">聯絡電話 : 03 425 1108</div>
             </div>
             <div class="info_wrap">
                 <div class="mail_icon">
@@ -68,14 +75,18 @@
         </div>
         <div id="googlemap">
             <div id="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.2490359444187!2d121.22244777469062!3d24.95764034136339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823ea50c732a5%3A0x1b5e6ee66e9fec49!2z57ev6IKyVGliYU1l6ZmE6Kit5Lit5aOi6IG36KiT5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1701219014640!5m2!1szh-TW!2stw" width="620" height="570" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.2490359444187!2d121.22244777469062!3d24.95764034136339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823ea50c732a5%3A0x1b5e6ee66e9fec49!2z57ev6IKyVGliYU1l6ZmE6Kit5Lit5aOi6IG36KiT5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1701219014640!5m2!1szh-TW!2stw" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
 
     <div class="contect_form">
-        <h2>請留下相關問題及資料<br>
-            我們將儘快為您服務</h2>
+        <div class="contect_form_title">
+        <p class="contect_form_title_text">請留下相關問題及資料<br>
+            我們將儘快為您服務</p>    
+        </div>
+        <div class="line"></div>
+
         <div class="form_content">
             
             <div class="form_content_name">
@@ -139,13 +150,13 @@
             <div class="form_content_content">
                 <div class="content_label">提問內容</div>
                 <div class="content_input">
-                    <textarea type="content" id="content" name="content" rows="4" placeholder="您的提問" required></textarea>                       
+                    <textarea type="content" id="content" name="content" rows="4" placeholder="您的提問" required style="padding-top: 10px;"></textarea>                       
                 </div>
             </div>     
         </div>
 
         <div class="wrapper">
-            <button class="">
+            <button type="submit" class="">
             <span>送出</span>
             <div class="success">
             </div>
@@ -159,7 +170,7 @@
 
             <div class="footer_list1">
                 <div class="footer_logo">
-                    <img src="./bruhabeer/logo2.png" alt="">
+                    <img src="./bruhabeer/logo3.png" alt="">
                 </div>
 
                 <div class="footer_info">
