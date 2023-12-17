@@ -782,6 +782,10 @@ p {
 
 
 /* team */
+
+.about_teamm{
+    background: linear-gradient(180deg, #FFFEFC 0%, white 0%, #FFEBD2 54%)
+}
 .about_title{
     width: 80%;
 }
@@ -799,7 +803,7 @@ p {
     padding: 30px;
 }
 .about_title .img_fac{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 .about_title .img_fac img{
@@ -811,7 +815,7 @@ p {
     width: 80%;
 }
 .about_title .team_person1, .team_person2{
-    background-color: #ffffff;
+    background-color: #FFF8F3;
     border: #f4f4f4 solid;
     width: 85%;
     height: 30%;

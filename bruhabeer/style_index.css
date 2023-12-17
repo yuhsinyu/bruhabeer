@@ -184,6 +184,92 @@
         }
 /* 媒體查詢end */
 
+/* 快樂飲酒 */
+.banner_text{
+    color: #FEFEFE;
+    font-size: 45px;
+    font-family: Kosugi Maru;
+    font-weight: 800;
+    letter-spacing: 18px;
+    word-wrap: break-word;
+    position: absolute;
+    z-index: 1;
+    margin-top: 150px;
+    margin-left: 16%;
+}
+
+.banner-img-m{
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+}
+.banner_textm{
+    position: absolute;
+    right: 0;
+
+}
+.header-imageb{
+    right: 0;
+}
+.header-imager{
+    right: 0;
+    float: right;
+} 
+.header-imageh{
+    right: 0;
+} 
+.header-imageb img{
+    width: 60%;
+}
+.header-imager img{
+    width: 60%;
+    margin: -125px 0 -50px 0;
+    float: right;
+    z-index: 100;
+}
+.header-imageh img{
+    width: 55%;
+    margin: -40px 0 0 0;
+}
+.banner_textm{
+    width: 100%;
+    color: #ffffff;
+    font-size: 2.5em;
+    font-family: Kosugi Maru;
+    font-weight: 600;
+    letter-spacing: 5px;
+    line-height: 1.5em;
+    /* word-wrap: break-word; */
+    position: absolute;
+    z-index: 1;
+    bottom: 50%;
+    right: 20px;
+    text-align: end;
+}
+.banner_textmm{
+    color: #273248;
+    font-size: 1em;
+    font-family: Kosugi Maru;
+    font-weight: 800;
+    letter-spacing: 5px;
+    /* word-wrap: break-word; */
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+.banner-img-m {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .banner-img{
+        display: none;
+    }
+    .banner-img-m {
+        display: block;
+    }
+}
 
 
 /* slogan-start */
@@ -222,123 +308,6 @@
 /* slogan-end */
 
 
-
-
-/* footer _start*/
-.main_footer {
-    width: 100%;
-    margin: auto;
-    background-color:#CD9933;
-}
-.footer_container {
-    display: flex;
-    padding: 40px 0 50px;
-    max-width: 100%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.main_footer .footer_container {
-    width: 85%;
-    height: auto;
-    margin: auto;
-
-}
-.footer_container .footer_list1 {
-    display: flex;
-    flex-direction: column;
-    gap: 45px;
-    padding: 0px;
-}
-.footer_container .footer_list1 .footer_info p {
-    width: 100%;
-    flex-shrink: 0;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 3em;
-    letter-spacing: 1px;
-}
-
-
-.footer_container .footer_list2 {
-    /* width: 100%; */
-    margin-left: 5%;
-    display: flex;
-    flex-direction: column;
-    /* padding: 200px; */
-}
-
-.footer_container .footer_list2 .nav {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    gap: 26px;
-}
-
-.footer_container .footer_list2 .nav a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.footer_container .footer_list2 .follow {
-    margin-left: 20px;
-    margin-top: 20%;
-    margin-bottom: 15%;
-    display: flex;
-    justify-content: flex-end;
-}
-.footer_container .footer_list2 .follow img {
-    width: 40px;
-    display: flex;
-    margin-right: 20px;
-}
-
-.footer_container .footer_copyright {
-    padding-bottom: 20px;
-    text-align: end;
-}
-
-.footer_container .footer_copyright p {
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 1.5;
-    color: white;
-}
-@media (max-width: 768px) {
-    .footer_container .footer_list2 .nav a {
-        display: none;
-    }  
-    .footer_container .footer_list2 .follow {
-        margin: 0;
-    }
-    .footer_container .footer_copyright {
-        padding-bottom: 10px;
-        text-align: end;
-}
-
-    .footer_container .footer_copyright p {
-        font-size: 12px;
-        font-weight: 300;
-        /* line-height: 1; */
-        color: rgb(255, 255, 255);
-        margin: 2px;
-}
-    .footer_container {
-        display: flex;
-        padding: 60px 0 50px;
-        max-width: 100%;
-        margin: 0 auto;
-        flex-wrap: wrap;
-        /* justify-content: end; */
-    }
-}
-/* footer _end*/
 
 
 /* 
@@ -536,11 +505,11 @@ news-start
     transition: .5s;
 }
 .viewmore a:hover {
-    background-color:#8f8d4f;
+    background-color:#CD9933;
     color: #FFF;
 }
 
-} */
+} 
 /* 
 .section_contact {
     width: 100%;
@@ -726,7 +695,7 @@ news-start
     margin: 10px;
 }
 .viewmore a:hover {
-    background-color:#8f8d4f;
+    background-color:#CD9933;
     color: #FFF;
 }
 
@@ -736,63 +705,83 @@ news-start
 
 .section_about{
     background: linear-gradient(180deg, #FFFEFC 0%, #FFF 0.01%, #FFEBD2 53.82%);
-    
+
+}
+.wide_wide{
+    width: 80%;
+    margin: 0 auto;
+
 }
 .section_about .title_about{
     color: #320000;
-    /* font-family: Nunito; */
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 5px;
     padding: 30px;
+    text-align: end;
 }
 .section_about .about_wrap{
     /* width: 75%; */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     padding: 8px 0 5px;
     margin: auto;
     /* align-items: flex-start; */
 }
-.section_about .about_wrap .about_contect_sp .about_slogn_hops{
+.about_slogn_hops{
     color: #663200;
     font-size: 50px;
     font-weight: 900;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     width: 100%;
-    padding: 10px;
+    padding: 0;
+    position: relative;
 }
+.about_slogn_hops2{
+    position: absolute;
+    right: 5%;
+    bottom: -95%;
+    z-index: 10;
+    color: #fff;
+}
+/* .about_slogn_hops1{
+    position: relative;
+} */
 .section_about .about_wrap .about_contect_sp {
     width: 58.3333%;
 }
 
 .section_about .about_wrap .about_contect_sp .about_pic {
     width: 100%;
+
 }
 .section_about .about_wrap .about_contect_sp .about_pic img{
-    margin: 10px 0px 80px;
+    margin: 0px 0px 80px;
     width: 100%;
     object-fit: cover;
 }
 .section_about .about_wrap .about_contect_text .about_article{
     color: #000;
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 50px; /* 227.273% */
-    letter-spacing: 1px;
+    line-height: 2em; /* 227.273% */
+    letter-spacing: 3px;
     margin: 15px;
 }
 .section_about .about_wrap .about_contect_text {
     margin-top: 5%;
-    width: 41.6666%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     
 }
 .section_about .about_wrap .about_contect_text .viewmore{
-    margin-left: 55%;
+    /* margin-left: 55%; */
     /* position: absolute; */
 }
 .beer_pic{
@@ -800,7 +789,10 @@ news-start
     padding: 0px 10px 0px 30px;
     position: relative;
     right: -50px;
-    top: 95px;
+    top: 50px;
+}
+.beer_pic img{
+    width: 100%;
 }
 
 #pagetop i{
