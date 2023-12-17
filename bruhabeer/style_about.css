@@ -704,8 +704,8 @@ p {
 
 }
 .about_flow .chart_area img{
-    width: 50%;
-    padding-bottom: 50px;
+    /* width: 50%; */
+    /* padding-bottom: 50px; */
 }
 
 @media (max-width: 768px) {

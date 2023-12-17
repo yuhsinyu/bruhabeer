@@ -562,7 +562,7 @@ news-start
 
 /* products_start */
 .section_products{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding: 50px;
     background-color: rgba(255, 235, 210, 0.30);
     position: relative;
@@ -589,9 +589,24 @@ news-start
     font-weight: 700;
     line-height: normal;
     letter-spacing: 5px;
-    padding: 90px 0 50px;
+    padding: 60px 5% 50px;
     margin-top: 0;
 }
+@media (max-width: 768px) {
+    .title_products{
+        width: 100%;
+        color: #320000;
+        font-family: Nunito;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+        padding: 50px 0 50px;
+        margin-top: 0;
+    }
+}
+
 .products_wrap {
     width: 90%;
     margin: auto;
@@ -699,6 +714,13 @@ news-start
     color: #FFF;
 }
 
+@media (max-width: 768px) {
+    .viewmore a {
+        padding: 10px 30px;
+
+    }
+}
+
 /* products_end */
 
 /* about _start*/
@@ -719,7 +741,7 @@ news-start
     font-weight: 700;
     line-height: normal;
     letter-spacing: 5px;
-    padding: 30px;
+    padding: 0px 30px 20px;
     text-align: end;
 }
 .section_about .about_wrap{
@@ -746,6 +768,9 @@ news-start
     z-index: 10;
     color: #fff;
 }
+
+
+
 /* .about_slogn_hops1{
     position: relative;
 } */
@@ -793,6 +818,48 @@ news-start
 }
 .beer_pic img{
     width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .section_about .about_wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_about .title_about {
+        text-align: center;
+    }
+    .about_contect_sp {
+        width: 100%;
+    }
+    .section_about .about_wrap .about_contect_sp {
+        width: 100%;
+    }
+    .about_slogn_hops2{
+        right: 0%;
+    }
+    .about_slogn_hops{
+        font-size: 45px;
+    }
+    .section_about .about_wrap .about_contect_sp .about_pic img{
+        margin: 0;
+    }
+    .about_pic img {
+        margin: 0;
+        width: 100%;
+        object-fit: cover;
+    }
+    .section_about .about_wrap .about_contect_text {
+        margin-top: 0; 
+        width: 100%;
+    }
+    .beer_pic {
+        width: 90%; 
+        padding: 0px 10px 0px 0px; 
+
+    }
 }
 
 #pagetop i{
