@@ -9,26 +9,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Noto+Sans+TC:wght@300&family=Nunito&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./bruhabeer/favicon.ico.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/00437083fa.js" crossorigin="anonymous"></script>
 <body>
-    <div class="big-bg">
-        <div class="header">
-            <h1>
-                <a href="index.html"><img class = "logo" src="./bruhabeer/logo3.png" alt="首頁"></a>
-            </h1>
-            <nav class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="member.html"><img src="./bruhabeer/home_member.png" alt="會員"></a></li>
-                <li><a href="#"><img src="./bruhabeer/home_cart.png" alt="購物車"></a></li>
-                <li><a href="#"><img src="./bruhabeer/home_search.png" alt="搜尋"></a></li>
-            </nav>
-        </div>
-        <div class="header-image">
-            <img src="./bruhabeer/home_banner.png" alt="">
-        </div>
+    <input type="checkbox" name="" id="menu-switch">
+    <div class="main-header">
+            <div class="header">
+                <div class = "logo">
+                    <a href="#"><img src="./bruhabeer/logo5.png" alt="首頁"></a>
+                </div>
+
+                <nav class="menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="member.html"><img src="./bruhabeer/home_member.png" alt="會員"></a></li>
+                    <li><a href="#"><img src="./bruhabeer/home_cart.png" alt="購物車"></a></li>
+                    <li><a href="#"><img src="./bruhabeer/home_search.png" alt="搜尋"></a></li>
+                </nav>
+                <label for="menu-switch" class="hb">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>                
+            </div>
+
+            <div class="header-image">
+                <img src="./bruhabeer/home_banner.png" alt="">
+            </div>
     </div>
 
     <section class="section_news">
@@ -189,14 +197,14 @@
                     <div class="viewmore">
                         <a href="about.html">View More</a>
                     </div>
-                    <div class="beer_pic"><img src="./bruhabeer/beer_pic.png" alt=""></div>
+                    <!-- <div class="beer_pic"><img src="./bruhabeer/beer_pic.png" alt=""></div> -->
                 </div>
             </div>
         </div>
 
     </section>
 
-    <div id="pagetop" onclick="scrollToTop()">TOP</div>
+    <div id="pagetop" onclick="scrollToTop()"><i class="fa-solid fa-angles-up fa-lg" style="color: #99561e;"></i></div>
     <script>
         function scrollToTop() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -211,46 +219,46 @@
         });
     </script>
 
-    <footer class="main_footer">
-        <div class="footer_container">
+<footer class="main_footer">
+    <div class="footer_container">
 
-            <div class="footer_list1">
-                <div class="footer_logo">
-                    <img src="./bruhabeer/logo2.png" alt="">
-                </div>
+        <div class="footer_list1">
+            <div class="footer_logo">
+                <img src="./bruhabeer/logo3.png" alt="">
+            </div>
 
-                <div class="footer_info">
-                    <p>
-                        營業時間 : 週二至週日 09:00-18:00 (週一公休)<br>
-                        電話 : 03 425 1108<br>
-                        信箱 : beerha@gmail.com<br>
-                        地址 : 320 桃園市中壢區復興路46號8樓<br>
-                    </p>
-                </div>
-            </div> 
+            <div class="footer_info">
+                <p>
+                    營業時間 : 週二至週日 09:00-18:00 (週一公休)<br>
+                    電話 : 03 425 1108<br>
+                    信箱 : beerha@gmail.com<br>
+                    地址 : 320 桃園市中壢區復興路46號8樓<br>
+                </p>
+            </div>
+        </div> 
 
-            <div class="footer_list2">
-                <div class="nav">
+        <div class="footer_list2">
+            <div class="nav">
 
-                    <a href="#">ABOUT</a>
-                    <a href="#">NEWS</a>
-                    <a href="#">PRODUCTS</a>
-                    <a href="#">CONTACT</a>
-                </div>
-                <div class="follow">
-                        <a href="#"><img src="./bruhabeer/icon_ig.png" alt="IG"></a>
-                        <a href="#"><img src="./bruhabeer/icon_fb.png" alt="FB"></a>
-                        <a href="#"><img src="./bruhabeer/icon_twitter.png" alt="TW"></a>
-                </div>
+                <a href="#">ABOUT</a>
+                <a href="#">NEWS</a>
+                <a href="#">PRODUCTS</a>
+                <a href="#">CONTACT</a>
+            </div>
+            <div class="follow">
+                    <a href="#"><img src="./bruhabeer/icon_ig.png" alt="IG"></a>
+                    <a href="#"><img src="./bruhabeer/icon_fb.png" alt="FB"></a>
+                    <a href="#"><img src="./bruhabeer/icon_twitter.png" alt="TW"></a>
+            </div>
+        
+            <div class="footer_copyright">
+                <p>本網站為緯育TibaMe前端工程師班第88期學員專題作品，本平台僅供學習、展示之用｜<br>參考資料：TOSACO、HAKUTSURU、KATANO、SUNTORY、YUBIHARI、KAONAVI<br>
+                    &copy; BRUHABEER All Rights Reserved.</p>
+            </div>
+        </div>   
             
-                <div class="footer_copyright">
-                    <p>本網站為緯育TibaMe前端工程師班第88期學員專題作品，本平台僅供學習、展示之用｜<br>參考資料：TOSACO、HAKUTSURU、KATANO、SUNTORY、YUBIHARI、KAONAVI<br>
-                        &copy; BRUHABEER All Rights Reserved.</p>
-                </div>
-            </div>   
-                
-        </div>
-    </footer>
+    </div>
+</footer>
 
 </body>
 

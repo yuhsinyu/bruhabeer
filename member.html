@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Noto+Sans+TC:wght@300&family=Nunito&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./bruhabeer/favicon.ico.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/00437083fa.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -153,6 +154,21 @@
         </div>
 
     </div>
+
+    <div id="pagetop" onclick="scrollToTop()"><i class="fa-solid fa-angles-up fa-lg" style="color: #99561e;"></i></div>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        window.addEventListener('scroll', function() {
+            var pagetop = document.getElementById('pagetop');
+            if (window.scrollY > 100) {
+                pagetop.style.display = 'block';
+            } else {
+                pagetop.style.display = 'none';
+            }
+        });
+    </script>
 
     <footer class="main_footer">
         <div class="footer_container">

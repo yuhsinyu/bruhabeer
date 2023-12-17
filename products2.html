@@ -196,6 +196,24 @@
         
     </section>
 
+    <div id="pagetop" onclick="scrollToTop()"><i class="fa-solid fa-angles-up fa-lg" style="color: #99561e;"></i></div>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        window.addEventListener('scroll', function() {
+            var pagetop = document.getElementById('pagetop');
+            if (window.scrollY > 100) {
+                pagetop.style.display = 'block';
+            } else {
+                pagetop.style.display = 'none';
+            }
+        });
+    </script>
+
+
+
+
     <footer class="main_footer">
         <div class="footer_container">
 
