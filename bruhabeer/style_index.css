@@ -347,7 +347,7 @@ news-start
 
 .news_container .title {
     text-align: center;
-    padding-bottom: 30px;
+    padding: 30px;
     color: #320000;
     font-family: Nunito;
     font-size: 50px;
@@ -518,35 +518,7 @@ news-start
     padding: 6px;
 }
 
-.news_list .news_wrap .news_function a {
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    font-weight: 300;
-    display: inline-block;
-    /* transition: 0.2s; */
-}
-
-.news_list .news_wrap .news_function a  {
-    font-size: 16px;
-    display: flex;
-    height: 10px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    border: #B47549 solid 1px;
-    border-radius: 50px;
-    padding: 20px 40px;
-}
-.news_list .news_wrap .news_function a :hover {
-    font-size: 20px;
-    display: flex;
-    height: 27px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
-/* .viewmore a {
+.viewmore a {
     background-color: #ffffff;
     color: #BC9A16;
     padding: 10px 55px;
@@ -556,14 +528,18 @@ news-start
     border: 1px solid #B47549;
     background: rgba(255, 255, 255, 0.70);
     color: #BC9A16;
-    /* font-family: Nunito; */
-    /* font-weight: 700;
+    font-family: Nunito;
+    font-weight: 700;
     display: block;
     text-align: center;
-} */
+    margin: 10px;
+    transition: .5s;
+}
 .viewmore a:hover {
     background-color:#8f8d4f;
     color: #FFF;
+}
+
 } */
 /* 
 .section_contact {
