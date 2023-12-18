@@ -166,8 +166,8 @@
             position: fixed;
             right: 0;
             top: 0;
-            width: 80vw;
-            height: 70vh;
+            width: 100vw;
+            height: 100vw;
             display: none;
             background-color: #FFF9F2;
             z-index: 10;
