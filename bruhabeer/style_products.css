@@ -203,7 +203,7 @@ a img {
     text-align: center;
     margin-top: 30px; 
 }
-.beer_craft .beer_products_title{
+.beer_products_title, .others_products_title{
     color: #000;
     font-family: Noto Sans;
     font-size: 38px;
@@ -353,6 +353,65 @@ background-image: url(./products_season_bg.png);
     }
 
 }
+
+
+.marquee-container {
+    
+    background-color: #FFEBD2;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    font-size: 40px;
+    font-family: Kosugi Maru;
+    color: #FC7643;
+    padding: 10px 0px;
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .marquee-content2 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee2 20s linear infinite;
+  }
+  .marquee-content3 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee2 20s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes marquee2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes marquee3 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+
 
 #pagetop i{
     position: fixed;
